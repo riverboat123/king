@@ -1,5 +1,5 @@
 {
-    "name": "XrayHeroku",
+    "name": "king",
     "description": "xray websocket proxy on heroku",
     "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
     "env": {
@@ -13,15 +13,15 @@
         },
         "CADDYIndexPage": {
             "description": "CADDYIndexPage",
-            "value": "https://raw.githubusercontent.com/thawhakyi/HerokuXray/main/mikutap.zip"
+            "value": "https://raw.githubusercontent.com/riverboat123/king/main/mikutap.zip"
         },
         "CONFIGCADDY": {
             "description": "Please do not modify it if you are not familiar with the CADDY configuration",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/riverboat123/king/master/etc/Caddyfile"
         },
         "CONFIGXRAY": {
             "description": "User-defined network address. Read configuration to run xray, please do not modify it if you are not familiar with xray configuration",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/master/etc/xray.json"
+            "value": "https://raw.githubusercontent.com/riverboat123/king/master/etc/xray.json"
         },
         "ParameterSSENCYPT": {
             "description": "SS encryption method, check the support agreement: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,10 +29,10 @@
         },
         "StoreFiles": {
             "description": "User-defined network address to read the list of stored files",
-            "value": "https://raw.githubusercontent.com/Lbingyi/HerokuXray/master/etc/StoreFiles"
+            "value": "https://raw.githubusercontent.com/riverboat123/king/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/AGWRI/XrayHeroku",
-    "repository": "https://github.com/AGWRI/XrayHeroku",
+    "website": "https://github.com/riverboat123/king",
+    "repository": "https://github.com/riverboat123/king",
     "stack": "container"
 }
